@@ -15,7 +15,7 @@ const server   = http.createServer( (req,res) => {
     
      res.statusCode = 200;     //this statuscode means everything is okay 
      res.setHeader('Content-Type', 'text/html');    //response will be in html format
-     res.end('<html><body><h1>Bhaag bhosdike!</h1></body></html>');   //response is going to end here, now it will sent the response to client
+     res.end('<html><body><h1>Hello, world!</h1></body></html>');   //response is going to end here, now it will sent the response to client
 
 
 
